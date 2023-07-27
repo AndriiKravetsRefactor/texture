@@ -1,0 +1,542 @@
+html {
+	background: url('../images/bg-texture-3.png') repeat;
+}
+
+.slide-content h2 {
+    font-size: 40px !important;
+    letter-spacing: 1px !important;
+}
+
+.footer-middle h6 {
+    font-size: 11.5px !important;
+    color: #a0a0a0;
+}
+
+.footer-left p, .footer-copyright p {
+    font-size: 11px !important;
+    letter-spacing: 0.8px !important;
+}
+
+
+.footer-right ul li a {
+    font-size: 11px !important;
+    letter-spacing: 0.8px !important;
+    font-family: 'Raleway Medium' !important;
+}
+
+@media screen and (max-width :767px) {
+    .slide-content h2 {
+        font-size: 28px !important;
+    }
+}
+
+.service-top h2 {
+    font-size: 32px;
+    margin-bottom: 7px;
+}
+
+#about-us.animate .home-right {
+    background-size: cover;
+}
+
+.btn-service {
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 36px;
+	color: #000;
+}
+
+.btn-service:before {
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	background-color: #ebebeb;
+	content: "";
+	-webkit-transition: all 1000ms cubic-bezier(0.2,1,0.3,1);
+	transition: all 1000ms cubic-bezier(0.2,1,0.3,1);
+}
+
+.btn-service:hover:before {
+	width: 48px;
+}
+
+.btn-service span {
+	position: relative;
+	z-index: 10;
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.everest-forms .evf-field-container, .everest-forms .evf-honeypot-container, .everest-forms .evf-submit-container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.everest-first-name-wrap, .everest-email-wrap {
+	width: 48%;
+    float: left;
+    position: relative;
+	display: flex !important;
+  	flex-direction: column;
+}
+
+.everest-last-name-wrap, .everest-company-wrap {
+	width: 48%;
+    float: right;
+    position: relative;
+	display: flex !important;
+  	flex-direction: column;
+}
+
+.everest-message-wrap {
+	clear: both;
+}
+
+.everest-forms-submit-button {
+	color: #000 !important;
+	background-color: #ffd800 !important;
+    display: block !important;
+    padding: 20px !important;
+    position: relative !important;
+    cursor: pointer !important;
+    max-width: 140px !important;
+    width: 100%;
+    text-align: center !important;
+    border-radius: 0px !important;
+    border: none !important;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.evf-error {
+	color: #ff0000 !important;
+	order: 1;
+    position: absolute;
+}
+
+.wpcf7-form-control-wrap {
+	height: 61px;
+}
+
+.evf-field-textarea {
+	height: 166px !important;
+    overflow: auto;
+}
+
+.wpcf7-form-control-wrap input,
+.wpcf7-form-control-wrap textarea {
+	order: 2;
+}
+
+.contact-form {
+	display: block !important;
+    width: 100% !important;
+}
+
+@media screen and (max-width :767px) {
+    .everest-forms .evf-field-container, .everest-forms .evf-honeypot-container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    
+    .everest-forms .evf-submit-container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    
+    .everest-first-name-wrap, .everest-email-wrap {
+        width: 100%;
+        float: none;
+    }
+
+    .everest-last-name-wrap, .everest-company-wrap {
+        width: 100%;
+        float: none;
+    }
+
+}
+
+/** SERVICE SINGLE **/
+.service-sticky-image {
+	top: 0px;
+	position: fixed;
+	width: 45%;
+	height: 100vh;
+}
+
+.service-single-right {
+	padding-left: 0px;
+}
+
+.service-single-right h1 {
+	margin-bottom: 30px;
+    text-transform: none;
+}
+
+.service-single-right .services-container {
+	padding-left: 0px;
+}
+
+.service-single-right .services-content::before {
+    width: 100px;
+    height: 2px;
+    background-color: #ffcc00;
+    position: absolute;
+    top: 58px;
+    left: -30px;
+    content: "";
+}
+
+.service-single-right .services-link a {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    background: url(../images/prev-arrow.png) no-repeat left center;
+    background-size: 16px 16px;
+}
+
+.featured-services-wrapper {
+	border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    overflow: auto;
+}
+
+.featured-services-wrapper h3 {
+    color: #000;
+    font-size: 18px;
+    padding: 30px 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.featured-services-wrapper .item {
+	color: #757575;
+    width: 33.3333333%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.featured-services-wrapper .item a {
+	color: #757575;
+    text-decoration: none;
+}
+
+.featured-services-wrapper .item a:hover {
+	color: #000;
+    text-decoration: none;
+}
+
+.featured-client {
+	color: #fff;
+	position: absolute;
+    bottom: 60px;
+    left: 60px;
+}
+
+.featured-client-title {
+	border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.page-template-services-php .site-header {
+    padding: 45px 0 0;
+    background: none;
+    position: fixed;
+}
+
+@media screen and (max-width : 1199px) {
+	.service-single-right .services-content {
+    	padding-left: 12%;
+    }
+}
+
+@media screen and (max-width : 900px) {
+	.page-template-services-php .site-header {
+        padding: 20px 0;
+        background: none;
+        position: absolute;
+    }
+	.service-single-left, .service-single-right {
+    	width: 100%;
+        display: block;
+    }
+    .page-template-services-php .service-single-right {
+    	padding-top: 0px !important;
+    }
+    .service-single-left {
+    	padding: 0px 0 0px;
+    }
+    .service-single-left .service-sticky-image {
+        top: 0px;
+        position: relative;
+        width: 100%;
+        height: 50vh;
+    }
+    .service-single-left .service-image {
+        background-position: top;
+    }
+    .featured-client {
+        bottom: 15px;
+    	left: 15px;
+    }
+    .featured-services-wrapper .item {
+        width: 50%;
+    }
+    
+    .service-single-right .services-container {
+        padding: 0px;
+    }
+
+    .service-single-right .services-container .services-content {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 30px;
+    }
+}
+
+.home-left .slider-content {
+    height: 100%;
+    display: flex;
+}
+
+.home-left .slider-content .featured-client {
+    position: relative;
+    align-self: flex-end;
+    display: inline-block;
+    padding-bottom: 30px;
+    padding-left: 8px;
+    left: 50px;
+}
+
+.home-left .slider-content .featured-client-title {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.home-left .slide-item {
+    height: 100vh;
+    display: block;
+    background-size: cover;
+    background-position: center;
+}
+
+ul.feature-accordion {
+    list-style: none;
+    padding: 0;
+    border-bottom: 1px solid #5a5a5a;
+    margin-bottom: 30px;
+}
+
+ul.feature-accordion .feature-accordion-inner {
+    overflow: hidden;
+    display: none;
+    padding: 0px 46px 10px;
+    line-height: 1.5;
+}
+
+ul.feature-accordion li {
+    color: #5a5a5a;
+    border-top: 1px solid #5a5a5a;
+    padding: 10px 0px;
+}
+
+ul.feature-accordion li .toggle {
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    padding: 12px 0px;
+    transition: background 0.3s ease;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    -webkit-transition: color .6s;
+    transition: color .6s;
+}
+
+ul.feature-accordion li .toggle span {
+    margin-right: 30px;
+}
+
+ul.feature-accordion li .toggle:after {
+  content: '\002B';
+  color: #5a5a5a;
+  font-weight: bold;
+  float: right;
+  margin-right: 30px;
+}
+
+ul.feature-accordion li .toggle.active, .feature-accordion-inner.show {
+    color: #fff;
+    -webkit-transition: color .6s;
+    transition: color .6s;
+}
+
+ul.feature-accordion li .toggle.active:after {
+    content: "\2212";
+    color: #fff;
+}
+
+.learn-more.white {
+    color: #fff;
+}
+
+.learn-more.white::before {
+    background-color: rgba(50, 50, 50, 0.8);
+}
+
+.service-single-right .services-content::before {
+    width: 100px;
+    height: 2px;
+    background-color: #ffcc00;
+    position: absolute;
+    top: 58px;
+    left: -30px;
+    content: "";
+}
+
+#what-we-do {
+    color: #fff;
+}
+
+#what-we-do h2 {
+    color: #fff;
+    font-size: 32px;
+    line-height: 1.8;
+    font-family: 'Raleway Light';
+    position: relative;
+}
+
+#what-we-do h2::before {
+    width: 100px;
+    height: 2px;
+    background-color: #ffcc00;
+    position: absolute;
+    top: 29px;
+    left: -120px;
+    content: "";
+}
+
+@media screen and (max-width :1440px) {
+    #what-we-do h2 {
+        font-size: 24px;
+    }
+
+    #what-we-do h2::before {
+        top: 22px;
+    }
+}
+
+#what-we-do .home-left img {
+    display: none;
+}
+
+#what-we-do .mobile-title {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 10px;
+    display: none;
+}
+
+#what-we-do .mobile-title span {
+	position: relative;
+	display: inline-block;
+	padding-right: 70px;
+}
+
+#what-we-do .mobile-title::before {
+	position: absolute;
+	background-color: #5a5a5a;
+	width: 56px;
+	height: 2px;
+	padding-right: 0;
+	display: block;
+	top: 7px;
+	right: 0;
+	content: "";
+}
+
+.slide-item-img-mob {
+    display: none !important;
+}
+
+
+@media screen and (max-width : 900px) {
+    .slick-slider .slick-track,
+    .slick-slider .slick-list {
+        height: auto;
+    }
+
+    .home-left .slide-item {
+        height: auto;
+        display: block;
+        background-image: none !important;
+    }
+
+    .slick-dots {
+        bottom: 20px;
+        padding-left: 16px;
+    }
+
+    .slide-item-img-mob {
+        display: block !important;
+    }
+
+    #home-header {
+        height: auto !important;
+    }
+
+    #home-header .home-left, .slides li {
+        height: auto !important;
+    }
+
+    .home-left .slider-content {
+        height: auto;
+        display: block;
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .home-left .slider-content .featured-client {
+        left: 24px;
+        padding-left: 0px;
+        bottom: 30px;
+    }
+
+    .home-left .slider-content .featured-client-title {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    #what-we-do h2::before {
+        display: none;
+    }
+
+    ul.feature-accordion .feature-accordion-inner {
+        padding: 0px 45px 10px;
+    }
+
+    #what-we-do .home-left img {
+        display: block;
+    }
+
+    #what-we-do {
+        padding: 0 0px;
+    }
+
+    ul.feature-accordion li .toggle {
+        padding: 10px 0px;
+    }
+
+    #what-we-do .mobile-title {
+        position: relative;
+        display: inline-block;
+    }
+
+    #what-we-do .desktop-title {
+        display: none;
+    }
+}

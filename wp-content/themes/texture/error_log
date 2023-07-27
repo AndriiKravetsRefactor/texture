@@ -1,0 +1,2 @@
+[02-Jul-2018 09:43:12 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/texture/public_html/wp-content/themes/texture/index.php on line 15
+[02-Jul-2018 09:43:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/texture/public_html/wp-content/themes/texture/index.php on line 15

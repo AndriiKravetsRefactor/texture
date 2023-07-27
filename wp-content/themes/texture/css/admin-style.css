@@ -1,0 +1,4 @@
+.acf_postbox .field input[type="text"], .acf_postbox .field input[type="number"], .acf_postbox .field input[type="password"], .acf_postbox .field input[type="email"], .acf_postbox .field textarea {
+	height: 35px;
+	line-height: 1.5;
+}
